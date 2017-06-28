@@ -1,4 +1,4 @@
-import socket,os,os,sys,time
+import socket,os,time
 from thread import *
 server=socket.socket(socket.AF_INET,socket.SOCK_STREAM) 
 server.bind(('localhost',1234))
